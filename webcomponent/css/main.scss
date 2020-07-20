@@ -1,0 +1,37 @@
+#instagram-widget {
+	* {
+		margin: 0;
+		padding: 0;
+		line-height: 0;
+	}
+
+	.instagram-widget-container {
+		text-align: center;
+		justify-content: center;
+		font-weight: 500;
+	}
+
+	.instagram-widget-photos li img {
+		border-radius: 5%;
+		background-color: ghostwhite;
+		object-fit: cover;
+		object-position: 50% 50%;
+		max-width: 300px;
+		max-height: 300px;
+		min-width: 80px;
+		min-height: 80px;
+		margin: 2px;
+	}
+
+	.instagram-content ul {
+		list-style-type: none;
+		padding-inline-start: 0;
+		width: 100%;
+
+	}
+
+	.instagram-widget-photos li {
+		list-style-type: none;
+		display: inline;
+	}
+}
